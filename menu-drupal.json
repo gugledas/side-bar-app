@@ -1,0 +1,395 @@
+[
+    {
+    "key": "5b296ded-b082-4ab9-b831-d427b2a5b1f9",
+    "title": "Listes des emplois",
+    "description": null,
+    "uri": "recherche-emploi",
+    "alias": "recherche-emploi",
+    "external": false,
+    "absolute": "http://airportlome.kksa/recherche-emploi",
+    "relative": "/recherche-emploi",
+    "existing": true,
+    "weight": "-49",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "1262ed52-fd99-4855-bf27-6c5051977b67",
+    "title": "Publier un emploi",
+    "description": null,
+    "uri": "multistepvalidation/CheckRoute/emploi",
+    "alias": "multistepvalidation/CheckRoute/emploi",
+    "external": false,
+    "absolute": "http://airportlome.kksa/multistepvalidation/CheckRoute/emploi",
+    "relative": "/multistepvalidation/CheckRoute/emploi",
+    "existing": true,
+    "weight": "-47",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": {
+    "go": "/node/add/jobs"
+    }
+    }
+    },
+    {
+    "key": "bf68be73-1b26-437f-b895-9de0f4ac4d9b",
+    "title": "Espace Employeurs",
+    "description": null,
+    "uri": "employeur",
+    "alias": "employeur",
+    "external": false,
+    "absolute": "http://airportlome.kksa/employeur",
+    "relative": "/employeur",
+    "existing": true,
+    "weight": "-46",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "bfa5735f-e8ed-44c5-9efe-9adca7ee260e",
+    "title": "Espace Candidat",
+    "description": null,
+    "uri": "candidats",
+    "alias": "candidats",
+    "external": false,
+    "absolute": "http://airportlome.kksa/candidats",
+    "relative": "/candidats",
+    "existing": true,
+    "weight": "-45",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "30848330-516e-4fa5-a5b8-1afa98965cd7",
+    "title": "Publier un CV",
+    "description": null,
+    "uri": "multistepvalidation/CheckRoute/identification_du_candidat",
+    "alias": "multistepvalidation/CheckRoute/identification_du_candidat",
+    "external": false,
+    "absolute": "http://airportlome.kksa/multistepvalidation/CheckRoute/identification_du_candidat",
+    "relative": "/multistepvalidation/CheckRoute/identification_du_candidat",
+    "existing": true,
+    "weight": "-44",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": {
+    "go": "identification_du_candidat"
+    }
+    }
+    },
+    {
+    "key": "8f40c479-9d44-4ae1-9b91-cbc2dd8de1e0",
+    "title": "Liste des cv",
+    "description": null,
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "http://airportlome.kksa/",
+    "relative": "/",
+    "existing": true,
+    "weight": "-43",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before"
+    }
+    },
+    {
+    "key": "aaf04980-61b3-4cbe-b49c-74539cb253ee",
+    "title": "Actualités",
+    "description": null,
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "http://airportlome.kksa/",
+    "relative": "/",
+    "existing": true,
+    "weight": "-42",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": []
+    },
+    {
+    "key": "6b19adea-0092-46e2-9890-b7ae4cb411f6",
+    "title": "Formations",
+    "description": null,
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "http://airportlome.kksa/",
+    "relative": "/",
+    "existing": true,
+    "weight": "-41",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before"
+    },
+    "below": [
+    {
+    "key": "33d1913c-f2fe-479e-b420-74cba7f86e1d",
+    "title": "Liste des formations",
+    "description": null,
+    "uri": "liste-des-formations",
+    "alias": "liste-des-formations",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-formations",
+    "relative": "/liste-des-formations",
+    "existing": true,
+    "weight": "-50",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before",
+    "query": []
+    }
+    }
+    ]
+    },
+    {
+    "key": "b68348ef-862c-4c37-a36a-cb235d13dc3c",
+    "title": "Liste des entreprises",
+    "description": null,
+    "uri": "liste-des-entreprises",
+    "alias": "liste-des-entreprises",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-entreprises",
+    "relative": "/liste-des-entreprises",
+    "existing": true,
+    "weight": "-39",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before",
+    "query": []
+    },
+    "below": [
+    {
+    "key": "922a156a-181c-4cc3-a301-9e5e8e35f97d",
+    "title": "Ajouter son entreprise",
+    "description": null,
+    "uri": "node/add/prestataires",
+    "alias": "node/add/prestataires",
+    "external": false,
+    "absolute": "http://airportlome.kksa/node/add/prestataires",
+    "relative": "/node/add/prestataires",
+    "existing": true,
+    "weight": "-50",
+    "expanded": false,
+    "enabled": true,
+    "uuid": "18d668ff-5bae-4b3e-ad0a-94ff73012d7d",
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before",
+    "query": []
+    }
+    }
+    ]
+    },
+    {
+    "key": "9838573b-3a46-412d-bf76-88a961666641",
+    "title": "Appels d'offre",
+    "description": null,
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "http://airportlome.kksa/",
+    "relative": "/",
+    "existing": true,
+    "weight": "-37",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before"
+    },
+    "below": [
+    {
+    "key": "fd88d949-0078-4541-aebf-bf5e64ec4e6a",
+    "title": "liste des appels d offre",
+    "description": null,
+    "uri": "liste-des-appels-d-offres",
+    "alias": "liste-des-appels-d-offres",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-appels-d-offres",
+    "relative": "/liste-des-appels-d-offres",
+    "existing": true,
+    "weight": "-50",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "fa_icon": "",
+    "fa_icon_prefix": "fa",
+    "fa_icon_tag": "i",
+    "fa_icon_appearance": "before",
+    "query": []
+    }
+    },
+    {
+    "key": "d28409fc-ecf9-4058-a94f-59ea36b1b222",
+    "title": "Ajouter un appel d'offre",
+    "description": null,
+    "uri": "node/add/appel_d_offres",
+    "alias": "node/add/appel_d_offres",
+    "external": false,
+    "absolute": "http://airportlome.kksa/node/add/appel_d_offres",
+    "relative": "/node/add/appel_d_offres",
+    "existing": true,
+    "weight": "-49",
+    "expanded": false,
+    "enabled": true,
+    "uuid": "a76f3c4e-3985-46b1-a7db-4a5b7ce6dc68",
+    "options": {
+    "query": []
+    }
+    }
+    ]
+    },
+    {
+    "key": "dfce21e8-f002-4cdc-8a50-9af2095e6b75",
+    "title": "Vendre son entreprise",
+    "description": null,
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "http://airportlome.kksa/",
+    "relative": "/",
+    "existing": true,
+    "weight": "-36",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": [],
+    "below": [
+    {
+    "key": "de62c7fa-5163-4473-93a3-69ecb016dffc",
+    "title": "Liste des entreprises à vendre",
+    "description": null,
+    "uri": "liste-des-entreprises",
+    "alias": "liste-des-entreprises",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-entreprises",
+    "relative": "/liste-des-entreprises",
+    "existing": true,
+    "weight": "-50",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "4061eae5-aa7f-453f-8174-14bf59bf38aa",
+    "title": "Ajouter une entreprise à vendre",
+    "description": null,
+    "uri": "multistepvalidation/CheckRoute/emploi",
+    "alias": "multistepvalidation/CheckRoute/emploi",
+    "external": false,
+    "absolute": "http://airportlome.kksa/multistepvalidation/CheckRoute/emploi",
+    "relative": "/multistepvalidation/CheckRoute/emploi",
+    "existing": true,
+    "weight": "-49",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": {
+    "go": "/node/add/vendre_son_entreprise"
+    }
+    }
+    }
+    ]
+    },
+    {
+    "key": "b1bd6da5-eaaf-4cf4-a002-f4e08c16563a",
+    "title": "Hotels",
+    "description": null,
+    "uri": "liste-des-hotels",
+    "alias": "liste-des-hotels",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-hotels",
+    "relative": "/liste-des-hotels",
+    "existing": true,
+    "weight": "-35",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "45f7eaf4-c2f3-4b8c-9bfe-a9bc810f2e13",
+    "title": "Publicité",
+    "description": null,
+    "uri": "liste-des-publicite",
+    "alias": "liste-des-publicite",
+    "external": false,
+    "absolute": "http://airportlome.kksa/liste-des-publicite",
+    "relative": "/liste-des-publicite",
+    "existing": true,
+    "weight": "-34",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+    "query": []
+    }
+    },
+    {
+    "key": "4ebb167c-5973-458b-a937-6ee6ddeb58d8",
+    "title": "Prix",
+    "description": null,
+    "uri": "node/507",
+    "alias": "page-de-base/prix",
+    "external": false,
+    "absolute": "http://airportlome.kksa/page-de-base/prix",
+    "relative": "/page-de-base/prix",
+    "existing": true,
+    "weight": "-33",
+    "expanded": false,
+    "enabled": true,
+    "uuid": "b26ffefb-2b98-49c6-88de-e8f3f6fddbee",
+    "options": []
+    }
+    ]
